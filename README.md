@@ -210,10 +210,3 @@ Example:
 	<Routes>...</Routes>
 </AppShell>
 ```
-
-## Notes
-
-- Prop types are not enforced with TypeScript in this project, so rely on the documented shapes above when passing data to components.
-- For API data shapes, see `src/services/omdbApi.js` which maps OMDb responses to `results` objects used across the app.
-
-If you'd like, I can add a small `COMPONENTS.md` or inline PropTypes/TypeScript types for stronger guarantees — tell me which you'd prefer and I'll add it.
